@@ -476,7 +476,7 @@ __global__ void GPU_init() { }
 
 
 
-extern "C" int gpu_encrypt (char *akey, char *plain,int length)
+extern "C" int gpu_encrypt (char *akey, char *plain,int length,char* cipher)
 {
   printf("2.  lenth is %d\n",strlen((char*)akey));
 //  FILE *file,*keyfile;
